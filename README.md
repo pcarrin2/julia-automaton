@@ -7,4 +7,4 @@ gated.jl -- creates a cellular automaton that is gated by another automaton. Whe
 
 gated-analyze.jl -- churns through many combinations of gates and substrates. Analyzes complexity via PNG compression. This implementation may not be quite sound yet, and I recommend against taking it seriously until i figure out how to really use PNGFiles. (I'm concerned that, behind the scenes,  `PNGFiles.save()` is choosing slightly different compression schemes from file to file.)
 
-view.jl -- view a simple or gated automaton as an image, where black pixels are dead and white pixels are alive.
+view.jl -- lets you view a simple or gated automaton as an image, where black pixels are dead and white pixels are alive.
